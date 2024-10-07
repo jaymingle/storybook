@@ -1,7 +1,7 @@
 import {options} from "./constants.js";
 import PropTypes from "prop-types";
 
-const Button = ({children, colors="primary", sizes ="sm"}) => {
+const Button = ({children = 'Button', colors="primary", sizes ="sm"}) => {
     return (
         <button>{children}</button>
     )

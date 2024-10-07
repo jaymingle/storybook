@@ -1,4 +1,9 @@
 /** @type { import('@storybook/react').Preview } */
+
+import 'minireset.css'
+import '../src/styles/global.css'
+
+
 const preview = {
   parameters: {
     controls: {

@@ -1,7 +1,8 @@
+import React from "react";
 import PropTypes from "prop-types";
 import {options} from "./constants.js";
 
-export const Card = ({children, colors, sizes}) => {
+export const Card = ({children, colors = "primary", sizes = "md"}) => {
     return (
         <div>
             {children}

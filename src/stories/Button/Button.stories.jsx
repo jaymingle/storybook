@@ -7,3 +7,5 @@ export default {
 }
 
 export const Default = () => <Button/>
+export const Colors = () => options.colors((color, index) => <Button key={index} color={color}/>)
+export const Sizes = () => options.size((size, index) => <Button key={index} size={size}/>)

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import {options} from "./constants.js";
 
-export const Card = ({children, colors = "primary", sizes = "md"}) => {
+const Card = ({children = "I am a Card", colors = "primary", sizes = "md"}) => {
     return (
         <div>
             {children}
@@ -10,8 +10,10 @@ export const Card = ({children, colors = "primary", sizes = "md"}) => {
     )
 }
 
-Card.PropTypes = {
+Card.propTypes = {
     children: PropTypes.node.isRequired,
     colors: PropTypes.oneOf(options.colors),
     sizes: PropTypes.oneOf(options.sizes),
 }
+
+export default Card;

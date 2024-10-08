@@ -11,7 +11,9 @@ const UserButton = ({children='User Button', colors='primary', sizes='sm'}) => {
 };
 
 UserButton.propTypes = {
-
+    children: PropTypes .node.isRequired,
+    colors: PropTypes.oneOf(options.colors),
+    sizes: PropTypes.oneOf(options.sizes)
 }
 
 export default UserButton;

@@ -1,4 +1,4 @@
 export const options = {
-    size: ['sm', 'md', 'lg'],
-    color: ['primary', 'secondary', 'tertiary']
+    sizes: ['sm', 'md', 'lg'],
+    colors: ['primary', 'secondary', 'tertiary']
 }

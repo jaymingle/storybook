@@ -2,9 +2,16 @@ import React from "react";
 import PropTypes from "prop-types";
 import {options} from "./constants.js";
 
-const Card = ({children = "I am a Card", colors = "primary", sizes = "md"}) => {
+import './Card.css'
+import classNames from "classnames";
+
+const Card = ({children = "I am a Card", color = "primary", size = "md"}) => {
     return (
-        <div>
+        <div className={classNames('card', {
+            [`color-${color}`]: color,
+            [`size-${color}`]: size,
+
+        })}>
             {children}
         </div>
     )

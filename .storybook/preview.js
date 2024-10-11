@@ -2,6 +2,7 @@
 
 import 'minireset.css'
 import '../src/styles/global.css'
+import '../src/styles/token.css'
 
 
 const preview = {

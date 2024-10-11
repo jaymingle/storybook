@@ -12,5 +12,10 @@
 
 .color-primary{
     color: #ffffff;
+    background-color: var(--color-primary);
+}
 
+.color-secondary{
+    color: #213547;
+    background-color: var(--color-secondary);
 }

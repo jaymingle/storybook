@@ -7,5 +7,5 @@ export default{
 }
 
 export const Default = () => <UserButton/>
-export const Colors = () => options.map((color, index) => <UserButton key={index} color={color}/>)
-export const Sizes = () => options.map((size, index) => <UserButton key={index} size={size}/>)
+export const Colors = () => options.colors.map((color, index) => <UserButton key={index} color={color}/>)
+export const Sizes = () => options.colors.map((size, index) => <UserButton key={index} size={size}/>)

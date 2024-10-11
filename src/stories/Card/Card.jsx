@@ -21,6 +21,8 @@ Card.propTypes = {
     children: PropTypes.node.isRequired,
     colors: PropTypes.oneOf(options.colors),
     sizes: PropTypes.oneOf(options.sizes),
+    isClickable: PropTypes.bool,
+    isDraggable: PropTypes.bool,
 }
 
 export default Card;

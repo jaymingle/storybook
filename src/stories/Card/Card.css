@@ -19,3 +19,18 @@
     color: #213547;
     background-color: var(--color-secondary);
 }
+
+.size-sm{
+    height: 400px;
+    width: 40px;
+    min-height: 25px;
+}
+
+.size-md{
+    height: var( --height-md);
+    min-height: 60px;
+}
+
+.size-lg{
+    min-height: 115px;
+}

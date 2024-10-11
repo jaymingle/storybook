@@ -7,5 +7,6 @@ export default{
     component: TestButton
 }
 
-const Default = () => <TestButton/>
-const Colors = () => options.colors.map((color, index) => <TestButton color={color} index={index}/>)
+export const Default = () => <TestButton/>
+export const Colors = () => options.colors.map((color, index) => <TestButton color={color} index={index}/>)
+export const Sizes = () => options.sizes.map((size, index) => <TestButton size={size} index={index}/>)
